@@ -22,7 +22,7 @@ const App = () => {
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
         <LoadingBar height={3} color="#f11946" progress={progress} />
         <Switch>
-          <Route exact path="/NewsMonkey">
+          <Route exact path="/">
             <News
               darkMode={darkMode}
               setProgress={setProgress}
