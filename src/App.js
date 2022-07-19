@@ -22,7 +22,7 @@ const App = () => {
         <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
         <LoadingBar height={3} color="#f11946" progress={progress} />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/NewsMonkey">
             <News
               darkMode={darkMode}
               setProgress={setProgress}
@@ -33,7 +33,7 @@ const App = () => {
               category="general"
             />
           </Route>
-          <Route exact path="/business">
+          <Route exact path="/NewsMonkey/business">
             <News
               darkMode={darkMode}
               setProgress={setProgress}
@@ -44,7 +44,7 @@ const App = () => {
               category="business"
             />
           </Route>
-          <Route exact path="/entertainment">
+          <Route exact path="/NewsMonkey/entertainment">
             <News
               darkMode={darkMode}
               setProgress={setProgress}
@@ -55,7 +55,7 @@ const App = () => {
               category="entertainment"
             />
           </Route>
-          <Route exact path="/general">
+          <Route exact path="/NewsMonkey/general">
             <News
               darkMode={darkMode}
               setProgress={setProgress}
@@ -66,7 +66,8 @@ const App = () => {
               category="general"
             />
           </Route>
-          <Route exact path="/health">
+    
+          <Route exact path="/NewsMonkey/health">
             <News
               darkMode={darkMode}
               setProgress={setProgress}
@@ -77,7 +78,7 @@ const App = () => {
               category="health"
             />
           </Route>
-          <Route exact path="/science">
+          <Route exact path="/NewsMonkey/science">
             <News
               darkMode={darkMode}
               setProgress={setProgress}
@@ -99,7 +100,7 @@ const App = () => {
               category="sports"
             />
           </Route>
-          <Route exact path="/technology">
+          <Route exact path="/NewsMonkey/technology">
             <News
               darkMode={darkMode}
               setProgress={setProgress}
