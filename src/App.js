@@ -33,7 +33,7 @@ const App = () => {
               category="general"
             />
           </Route>
-          <Route exact path="/NewsMonkey/business">
+          <Route exact path="/business">
             <News
               darkMode={darkMode}
               setProgress={setProgress}
@@ -44,7 +44,7 @@ const App = () => {
               category="business"
             />
           </Route>
-          <Route exact path="/NewsMonkey/entertainment">
+          <Route exact path="/entertainment">
             <News
               darkMode={darkMode}
               setProgress={setProgress}
@@ -55,7 +55,7 @@ const App = () => {
               category="entertainment"
             />
           </Route>
-          <Route exact path="/NewsMonkey/general">
+          <Route exact path="/general">
             <News
               darkMode={darkMode}
               setProgress={setProgress}
@@ -66,8 +66,7 @@ const App = () => {
               category="general"
             />
           </Route>
-    
-          <Route exact path="/NewsMonkey/health">
+          <Route exact path="/health">
             <News
               darkMode={darkMode}
               setProgress={setProgress}
@@ -78,7 +77,7 @@ const App = () => {
               category="health"
             />
           </Route>
-          <Route exact path="/NewsMonkey/science">
+          <Route exact path="/science">
             <News
               darkMode={darkMode}
               setProgress={setProgress}
@@ -100,7 +99,7 @@ const App = () => {
               category="sports"
             />
           </Route>
-          <Route exact path="/NewsMonkey/technology">
+          <Route exact path="/technology">
             <News
               darkMode={darkMode}
               setProgress={setProgress}

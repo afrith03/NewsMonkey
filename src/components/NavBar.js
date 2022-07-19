@@ -35,37 +35,37 @@ const NavBar = ({ darkMode, setDarkMode }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/NewsMonkey/business">
+                <Link className="nav-link" to="/business">
                   Business
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/NewsMonkey/entertainment">
+                <Link className="nav-link" to="/entertainment">
                   Entertainment
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/NewsMonkey/general">
+                <Link className="nav-link" to="/general">
                   General
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/NewsMonkey/health">
+                <Link className="nav-link" to="/health">
                   Health
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/NewsMonkey/science">
+                <Link className="nav-link" to="/science">
                   Science
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/NewsMonkey/sports">
+                <Link className="nav-link" to="/sports">
                   Sports
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/NewsMonkey/technology">
+                <Link className="nav-link" to="/technology">
                   Technology
                 </Link>
               </li>
